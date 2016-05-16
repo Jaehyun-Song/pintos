@@ -1,0 +1,6 @@
+FAIL
+Kernel panic in run: PANIC at ../../threads/interrupt.c:91 in intr_enable(): assertion `!intr_context ()' failed.
+Call stack: 0xc00283ff 0xc0021842
+Translation of call stack:
+0xc00283ff: debug_panic (.../../lib/kernel/debug.c:38)
+0xc0021842: is_due_to_exec (..../../threads/thread.c:932)
